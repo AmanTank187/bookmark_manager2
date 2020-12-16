@@ -63,4 +63,9 @@ I'd like users to only manage their bookmarks.
 #Database tables
 --------------------------
 
-bookmark_mark=# CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));
+bookmark_manaager_2=# CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));
+
+#Database test table
+--------------------------
+
+bookmark_manaager__test=# CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));
